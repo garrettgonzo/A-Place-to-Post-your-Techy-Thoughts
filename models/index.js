@@ -24,7 +24,6 @@ Blog.belongsTo(User, {
 Comment.belongsTo(Blog, {
   foreignKey: 'blog_id',
 });
-//add blog id column and check if its there anyTHING
 
 Comment.belongsTo(User, {
   foreignKey: 'user_id',
